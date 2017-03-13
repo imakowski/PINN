@@ -1,1 +1,1 @@
-runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline alt_image_source=http://files.matthuisman.nz/pinn.json
+runinstaller quiet ramdisk_size=32768 root=/dev/ram0 init=/init vt.cur_default=1 elevator=deadline no_default_source alt_image_source=http://files.matthuisman.nz/noobs.php?url=http://downloads.raspberrypi.org/os_list_v3.json%20http://files.matthuisman.nz/pinn.json&recalboxOS-rpi3=1000&Retropie_RPi2=6000&recalboxOS-rpi3-unstable=1000 
